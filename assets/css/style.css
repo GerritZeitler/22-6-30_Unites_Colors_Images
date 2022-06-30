@@ -1,0 +1,74 @@
+/* Generalls */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* Header */
+section {
+    border-style: solid;
+    border-color: grey;
+    margin: 1cm 1cm;
+}
+
+h2 {
+    font-size: 15mm;
+    text-shadow: 1.5mm 1.5mm black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* main */
+
+article {
+    text-align: left;
+    margin: 2cm 2cm;
+    padding: 1cm 1cm;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5;
+   /*  border: 2cm 2cm; */
+    border-radius: 0.1cm;
+    background-color: darkgrey;
+
+}
+
+p {
+    font-size: 7mm;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: ' \25CF';
+
+}
+
+li:first-child {
+    font-size: 0.7cm;
+    background-color: white;
+}
+
+li:nth-child(2) {
+    font-size: 1cm;
+    color: white;
+}
+
+li:last-child {
+    font-size: 1.2cm;
+    background-color: white;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
